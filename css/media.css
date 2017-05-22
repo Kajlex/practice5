@@ -1,0 +1,408 @@
+@media all and (max-width: 1400px) {
+    .slider {
+        padding: 220px 0;
+    }
+
+    .text-img .head {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .slider {
+        padding: 180px 0;
+    }
+
+    .common-h2 {
+        font-size: 24px;
+    }
+
+    .chess-item p {
+        position: relative;
+        max-width: 320px;
+        font-size: 20px;
+    }
+
+    .phone {
+        font-size: 23px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .text-img .head {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .row.top .chess-item {
+        width: 49%;
+        margin-top: 40px;
+    }
+
+    .row.top .chess-item:last-child {
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .slider h2 {
+        font-size: 20px;
+    }
+
+    .slider {
+        padding: 120px 0;
+    }
+
+    .common-h2 {
+        font-size: 22px;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+
+    .border-btn {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        font-size: 15px;
+    }
+
+    header .top-mnu .logo {
+        max-width: 140px;
+    }
+
+    .advs .row.bottom .chess-item {
+        width: 49%;
+        transform: translateX(0%);
+    }
+
+    .advs .chess-item p.h2 {
+        font-size: 24px;
+    }
+
+    .async .row.bottom,
+    .async .row.top {
+        text-align: center;
+    }
+
+    .async .text-img {
+        margin-bottom: 0;
+        padding: 20px;
+        min-height: 400px;
+
+    }
+
+    .async .row.top img,
+    .async .row.bottom img {
+        opacity: 0.8;
+        max-width: 65%;
+    }
+
+    .content.lh {
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .icons-item {
+        width: 49%;
+    }
+
+    .async .text-img {
+        margin: 50px auto;
+    }
+
+    .text-img .head {
+        font-size: 30px;
+    }
+
+    .text-img {
+        min-height: auto;
+    }
+
+    .text-img .head {
+        width: 90%;
+    }
+
+    header .top-mnu .logo {
+        max-width: 100px;
+    }
+
+    .border-btn {
+        width: 140px;
+        font-size: 11px;
+        height: 35px;
+        line-height: 34px;
+    }
+
+    .phone {
+        font-size: 17px;
+    }
+
+    header .top-mnu {
+        min-height: 100px;
+        line-height: 100px;
+    }
+
+    .common-h2 {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    .chess-item p {
+        position: relative;
+        max-width: 260px;
+        font-size: 16px;
+    }
+
+    .chess-item p::before {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .slider h2 {
+        font-size: 18px;
+    }
+
+    .slider {
+        padding: 100px 0;
+    }
+
+    .top-mnu .contacts {
+        text-align: right;
+        line-height: 30px;
+    }
+
+    header .top-mnu {
+        line-height: 60px;
+    }
+
+    .three.nav {
+        display: none;
+    }
+
+    .small-three {
+        width: 49%;
+    }
+
+    .three.nav {
+        display: none;
+    }
+
+    .row.bottom-9 .nine-item .img {
+        transform: translateX(0%);
+    }
+
+    .row.top-9 .nine-item:nth-child(4),
+    .row.top-9 .nine-item:nth-child(5) {
+        transform: translateX(50%);
+    }
+
+    .row.bottom-9 .nine-item:last-child {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .sm {
+        display: block !important;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .chess-item p {
+        padding-left: 20px;
+    }
+
+    .nine-item {
+        text-align: center;
+        display: inline-block;
+        width: 32%;
+        margin-top: 50px;
+    }
+
+    .content * {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    footer .left,
+    footer .right {
+        width: 100%;
+    }
+
+    footer .left .center:after {
+        content: "";
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .popup .title {
+        margin-top: 55px;
+        font-size: 16px;
+    }
+
+    .popup .nameText {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .popup .close {
+        font-size: 24x;
+    }
+
+    .popup .submit {
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .nine-p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .async .text-img {
+        max-width: 90%;
+    }
+
+    .popup .title {
+        margin-top: 55px;
+        font-size: 16px;
+    }
+
+    .popup .nameText {
+        font-size: 15px;
+    }
+
+    .popup .close {
+        font-size: 24x;
+    }
+
+    .addr, .mail, .phone, .field {
+        font-size: 13px;
+    }
+
+    .field {
+        height: 40px;
+    }
+
+    .sign {
+        font-size: 12px;
+    }
+
+    .num {
+        font-size: 25px;
+    }
+
+    section {
+        margin-top: 40px;
+    }
+
+    .advs .chess-item p {
+        font-size: 15px;
+    }
+
+    .advs .chess-item p.h2 {
+        font-size: 18px;
+    }
+
+    .advs .chess-item::before {
+        font-size: 130px;
+        line-height: 110px;
+        left: 60px;
+    }
+
+    .async .text-img {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .content {
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+    .content::after {
+        display: none;
+    }
+
+    .text-img .head {
+        font-size: 20px;
+    }
+
+    .content * {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .chess-item {
+        width: 100% !important;
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+
+    .common-h2 {
+        font-size: 15px;
+    }
+
+    .slider {
+        padding: 70px 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .slider h2 {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        font-size: 13px;
+    }
+
+    .phone {
+        font-size: 15px;
+    }
+
+    .border-btn {
+        width: 110px;
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    section h1:after {
+        width: 40px;
+        right: -35%;
+    }
+
+    section h1.rev:after {
+        left: -35%;
+    }
+
+    section h1 {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .popup {
+        height: 400px;
+        max-width: 90%;
+    }
+}
