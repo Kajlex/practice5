@@ -17,11 +17,8 @@ $email = trim($_POST['email']);
 if ($formType == "callback") {
     $form = new CallbackForm($formType, $name, $phone);
     $form->getForm();
-}
-if ($formType == "order") {
+} else {
     $form = new OrderForm($formType, $name, $phone, $email);
     $form->getForm();
 }
-
-
 

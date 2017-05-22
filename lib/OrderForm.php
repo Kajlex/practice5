@@ -22,11 +22,15 @@ class OrderForm extends CallbackForm
 
     public function validate(): bool
     {
-        if (parent::validate()) {
-            if (empty($this->email) || preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/", $this->email)) {
-                return true;
-            }
+        if (!parent::validate()) {
+            return false;
         }
+        if (!empty($this->email)) {
+                if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/", $this->email)) {
+                    return false;
+                }
+            }
+        return true;
     }
 
     public function send()
@@ -38,7 +42,8 @@ class OrderForm extends CallbackForm
         }
     }
 
-    public function getForm()
+    public
+    function getForm()
     {
         parent::getForm();
     }
