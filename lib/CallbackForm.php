@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: artem
- * Date: 18.05.17
- * Time: 19:30
- */
+
 require_once('FormAbstract.php');
 
 class CallbackForm extends FormAbstract
