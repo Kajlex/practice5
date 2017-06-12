@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: artem
- * Date: 18.05.17
- * Time: 19:40
- */
+
 require_once('lib/CallbackForm.php');
 require_once('lib/OrderForm.php');
 
